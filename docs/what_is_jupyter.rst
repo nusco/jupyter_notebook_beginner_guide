@@ -27,7 +27,7 @@ which can be run to perform data analysis.
 Jupyter Notebook App
 --------------------
 
-The *Jupyter Notebook App* is a server-client application that allows 
+The *Jupyter Notebook App* is a client-server application that allows 
 editing and running :ref:`notebook documents <notebook_document>`
 via a web browser.
 The *Jupyter Notebook App* can be executed on a local desktop 
@@ -59,7 +59,7 @@ When you open a :ref:`notebook_document`, the associated *kernel* is automatical
 When the notebook is *executed* (either cell-by-cell or with menu *Cell -> Run All*),
 the *kernel* performs the computation and produces the results.
 Depending on the type of computations, the *kernel* may consume significant
-CPU and RAM. Note that the RAM is not released until the *kernel* is shut-down.
+CPU and RAM. Note that the RAM is not released until the *kernel* is shut down.
 
 See also :ref:`kernel_shutdown`.
 
